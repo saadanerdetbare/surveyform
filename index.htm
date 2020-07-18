@@ -7,6 +7,55 @@
   </head>
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <article>
+      <header>
+        <h1 id="title">Bla</h1>
+        <p id="description">Blabla</p>
+      </header>
+      <form id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter name"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <label for="email" id="email-label">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter email"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <label for="number" id="number-label">Number</label>
+          <input
+            type="number"
+            name="number"
+            id="number"
+            min="1"
+            max="5"
+            placeholder="number"
+          />
+        </fieldset>
+        <fieldset>
+          <select name="dropdown" id="dropdown">
+            <option value="bla">bla</option>
+            <option value="blabla">blabla</option>
+            <option value="blablabla">blablabla</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <input type="submit" value="Submit" id="submit" />
+        </fieldset>
+      </form>
+    </article>
     <div class="footer">
       <p>freeCodeCamp Survey Form project by Jakob Dahl</p>
       <p>
