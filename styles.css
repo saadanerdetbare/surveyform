@@ -1,3 +1,32 @@
+article {
+  width: 50vw;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.1vw;
+}
+
+#name,
+#email,
+#number {
+  width: 100%;
+  display: block;
+}
+
+.field-radio {
+  text-align: right;
+}
+
+.radiotext {
+  vertical-align: middle;
+}
+
 .footer {
   position: fixed;
   left: 0;
